@@ -1,6 +1,7 @@
 // Copyright 2022 NNTU-CS
 #include <cstdint>
 #include "alg.h"
+
 using namespace std;
 
 bool checkPrime(uint64_t value) {
@@ -43,7 +44,7 @@ return sum;
 }
 
 int main() {
-    int a=7;
-    cout<<checkPrime(a)<<endl;
+    int a = 7;
+    cout << checkPrime(a) << endl;
     return 0;
 }
