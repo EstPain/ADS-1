@@ -3,8 +3,6 @@
 #include "alg.h"
 #include <iostream>
 
-using namespace std;
-
 bool checkPrime(uint64_t value) {
 for (int i = 2; i < value; i++) {
 if (value % i == 0)
@@ -46,6 +44,6 @@ return sum;
 
 int main() {
     int a = 7;
-    cout << checkPrime(a) << endl;
+    std::cout << checkPrime(a) << std::endl;
     return 0;
 }
